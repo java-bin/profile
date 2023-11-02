@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { greeting, skills, experience, achievements, contactInfo } from '../../portfolio';
+import { greeting, skills, experience, openSourceProjects, projects, achievements, blogs, contactInfo } from '../../portfolio';
 
 function Header() {
 	
@@ -41,9 +41,24 @@ function Header() {
 							Experience
 						</a>
 					</li>}
+					{openSourceProjects.view && <li className="nav-list" onClick={onClickMenu}>
+						<a href="#opensource">
+							Open Source
+						</a>
+					</li>}
+					{projects.view && <li className="nav-list" onClick={onClickMenu}>
+						<a href="#project">
+							Projects
+						</a>
+					</li>}
 					{achievements.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#achievement">
 							Achievements
+						</a>
+					</li>}
+					{blogs.view && <li className="nav-list" onClick={onClickMenu}>
+						<a href="#blog">
+							Blogs
 						</a>
 					</li>}
 					{contactInfo.view && <li className="nav-list" onClick={onClickMenu}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hello.css';
-import {greeting, skills} from '../../portfolio';
+import { greeting } from '../../portfolio';
 import Social from '../Social/Social';
 
 function Hello() {
@@ -19,7 +19,7 @@ function Hello() {
 						<span>{greeting.role}</span>
 					</div>
 					<div className="text-subtitle">
-						{greeting.subTitle.map((desc, i) => <p key={i}>{desc}</p>)}
+						<span>{greeting.subTitle}</span>
 					</div>
 					<div className="social-links">
 						<Social />

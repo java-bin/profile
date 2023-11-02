@@ -1,13 +1,12 @@
 import emoji from 'react-easy-emoji';
 
 export const greeting = {
-	username: 'CHAEBIN LIM',
+	username: 'CHAE BIN LIM',
 	title: 'CHAE BIN LIM',
 	subTitle: [
-		emoji("👨‍💻 이름 | 임 채 빈"),
-		emoji("🙊 출생신고 | 92.03.14"),
-	 	emoji("🛖 주거지 | 서울특별시 강서구"),
-		emoji("‍🐯 학교 | 고려대학교 전기전자컴퓨터공학과(석사)"),
+		emoji("🚴📙‍임 채 빈 ❤"),
+		emoji("🚴🏼‍92.03.14"),
+		emoji("🚴🏼‍고려대학교 전기전자컴퓨터공학과(석사)"),
 	],
 	role: "Thank you for your visit",
 	resumeLink: "Your resume link... google drive or something else",
@@ -24,7 +23,7 @@ export const socialMediaLinks = {
 };
 
 export const skills = {
-	title: emoji("Skills 🚴🏼‍♀️ 🚴🏼 🚴🏼‍♂️"),
+	title: emoji("Skills💻⚡ 🚴🏼‍♀️ 🚴🏼 🚴🏼‍♂️"),
 	mainTitle: "✔ Main Skills",
 	mainSkills: [
 		emoji("✔ describe first"),

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://java-bin.github.io",
+  "homepage": "https://ikalli.github.io/ReactFolio",
   "name": "react-blog",
   "version": "0.1.0",
   "private": true,
@@ -18,12 +18,12 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "start": "../node_modules/.bin/react-scripts start",
-    "build": "../node_modules/.bin/react-scripts build",
-    "test": "../node_modules/.bin/react-scripts test",
-    "eject": "../node_modules/.bin/react-scripts eject",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "../node_modules/.bin/gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "apollo-boost": "^0.4.9",
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^3.1.0",
     "graphql": "^15.3.0",
     "react-easy-emoji": "^1.4.0",
     "react-reveal": "^1.2.2"

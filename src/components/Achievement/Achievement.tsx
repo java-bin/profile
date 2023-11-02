@@ -7,22 +7,21 @@ function Achievement() {
     return (
         <section className="section--achievement" id="achievement">
             <div className="inner">
+
                 <div className="achieve-title">
-                    <p>{achievements.achievementTitle}</p>
+                    <p>{achievements.title}</p>
                 </div>
+
+                <div className="achieve-subtitle">
+                    <p>{achievements.subTitle}</p>
+                </div>
+
                 <div className="achieve-content">
-                    {achievements.achievementList.map((list, i) => {
+                    {achievements.lists.map((list, i) => {
                         return <AchievementCard achieves={list} key={i} />
                     })}
                 </div>
-                <div className="achieve-title">
-                    <p>{achievements.certificationTitle}</p>
-                </div>
-                <div className="achieve-content">
-                    {achievements.certificationList.map((list, i) => {
-                        return <AchievementCard achieves={list} key={i} />
-                    })}
-                </div>
+
             </div>
         </section>
     );
