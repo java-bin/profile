@@ -9,7 +9,6 @@ function Hello() {
 		<Fade bottom duration={800}>
 		<section className="section--hello">
 			<div className="inner">
-
 				<div className="wrapper">
 					<div className="text-title">
 						{greeting.title}&nbsp;
@@ -19,8 +18,9 @@ function Hello() {
 						<span>{greeting.role}</span>
 					</div>
 					<div className="text-subtitle">
-						<span>{greeting.subTitle}</span>
+					    {greeting.subTitle.map((desc, i) => (<p key={i}>{desc}</p>))}
 					</div>
+
 					<div className="social-links">
 						<Social />
 					</div>
