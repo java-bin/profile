@@ -9,7 +9,7 @@ export const greeting = {
         emoji("‍고려대학교 전기전자컴퓨터공학과(석사)"),
     ],
 	role: "Thank you for your interest",
-	resumeLink: "Your resume link... google drive or something else",
+	resumeLink: "https://jasper-calculator-706.notion.site/Software-Engineer-c2658b7ccc784a1e94028b82706ad9ae?pvs=4",
 	// IMPORTANT
 	// If you don't want to show this, change view to false. DO NOT DELETE!
 	view: true
@@ -46,12 +46,11 @@ export const skills = {
 	communicationLists: [
         {fontAwesome: "fab fa-confluence", text: "CONFLUENCE", proficiency: 60},
         {fontAwesome: "fab fa-jira", text: "JIRA", proficiency: 60},
-        {fontAwesome: "fa-brands fa-jira", text: "JIRA", proficiency: 60}
     	],
     languageSkill: "✔ Language Skills",
     languageLists: [
         {fontAwesome: "fab fa-canadian-maple-leaf", text: "ENGLISH", proficiency: 60},
-        {fontAwesome: "fab fa-circle", text: "JAPANESE", proficiency: 50},
+        {fontAwesome: "fab fa fa-circle", text: "JAPANESE", proficiency: 50},
     ],
 	view: true
 };
