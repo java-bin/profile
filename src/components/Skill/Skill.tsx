@@ -23,10 +23,10 @@ function Skill() {
                         ))}
                     </div>
                      <div className="skill-subtitle">
-                        <p>{skills.serverSkill}</p>
+                        <p>{skills.cloudSkill}</p>
                     </div>
                     <div className="skill-cards">
-                        {skills.serverLists.map((list, i) => (
+                        {skills.cloudLists.map((list, i) => (
                             <SkillCard skill={list} key={i} />
                         ))}
                     </div>
