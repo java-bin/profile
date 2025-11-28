@@ -2,11 +2,11 @@ import emoji from 'react-easy-emoji';
 
 export const greeting = {
 	username: 'CHAE BIN LIM',
-	title: 'Cloud Back End Developer',
+	title: 'Cloud Software Developer',
 	subTitle: [
-        "🧗🏼 임 채 빈",
+        "🏄🏽‍♂️ IaaS Platform Developer (Openstack)",
         "🐯 고려대학교 전기전자컴퓨터공학과(석사)",
-        "🏄🏽‍♂️ STCLab Wave Autoscale",
+        "🧗🏼 임 채 빈",
     ],
 	role: "Thank you for your interest",
 	resumeLink: "https://jasper-calculator-706.notion.site/Software-Engineer-c2658b7ccc784a1e94028b82706ad9ae?pvs=4",
@@ -34,23 +34,23 @@ export const skills = {
 	mainLists: [
         {fontAwesome: "fab fa-java", text: "Java", proficiency: 80},
         {fontAwesome: "fab fa-envira", text: "Spring", proficiency: 80},
-        {fontAwesome: "fab fa-python", text: "Python", proficiency: 10},
+        {fontAwesome: "fab fa-python", text: "Python", proficiency: 30},
 
-        {fontAwesome: "fab fa-react", text: "React", proficiency: 30},
-        {fontAwesome: "fab fa-vuejs", text: "Vue.js", proficiency: 60},
-        {fontAwesome: "fab fa-angular", text: "Angular", proficiency: 30},
-
-        {fontAwesome: "fab fa-github-alt", text: "Github", proficiency: 70},
+        {fontAwesome: "fab fa-github", text: "Github", proficiency: 70},
+        {fontAwesome: "fab fa-gitlab", text: "Gitlab", proficiency: 70},
         {fontAwesome: "fab fa-bitbucket", text: "Bitbucket", proficiency: 70},
         {fontAwesome: "fab fa-jenkins", text: "Jenkins", proficiency: 40},
 
-        {fontAwesome: "fab fa-docker", text: "Docker", proficiency: 80},
+        {fontAwesome: "fab fa-react", text: "React", proficiency: 20},
+        {fontAwesome: "fab fa-vuejs", text: "Vue.js", proficiency: 20},
+        {fontAwesome: "fab fa-angular", text: "Angular", proficiency: 20},
 	],
 	cloudSkill: "✔ Server Skills",
 	cloudLists: [
         {fontAwesome: "fab fa-linux", text: "LINUX", proficiency: 80},
         {fontAwesome: "fab fa-centos", text: "CentOS", proficiency: 80},
         {fontAwesome: "fab fa-ubuntu", text: "Ubuntu", proficiency: 80},
+        {fontAwesome: "fab fa-docker", text: "Docker", proficiency: 80},
         {fontAwesome: "fab fa-aws", text: "AWS", proficiency: 75},
     ],
     communicationSkill: "✔ Communication Skills",
@@ -58,6 +58,7 @@ export const skills = {
         {fontAwesome: "fab fa-confluence", text: "Confluence", proficiency: 70},
         {fontAwesome: "fab fa-jira", text: "JIRA", proficiency: 50},
         {fontAwesome: "fab fa-slack", text: "Slack", proficiency: 100},
+        {fontAwesome: "fab fa-google-drive", text: "Google", proficiency: 100},
     ],
     languageSkill: "✔ Language Skills",
     languageLists: [
@@ -207,44 +208,56 @@ export const blogs = {
 export const certification = {
 	title: emoji("Certification"),
 	lists: [
+        {
+            title: "🇯🇵 JLPT N2 ",
+            desc: "(2025.08)"
+        },
+        {
+            title: "💻 SQLD ",
+            desc: "(2025.06)"
+        },
+        {
+            title: "🇯🇵 JLPT N3 ",
+            desc: "(2025.01)"
+        },
 		{
-        			title: "🏆 정보처리기사 ",
-                    desc: "(2019.11)"
-        		},
-        		{
-        			title: "🏆 SKI LEVEL 2 🇨🇦",
-        			desc: "(2018.12)"
-        		},
+            title: "💻 정보처리기사 ",
+            desc: "(2019.11)"
+        },
+        {
+            title: "⛷️ SKI LEVEL 2 🇨🇦",
+            desc: "(2018.12)"
+        },
 
-        		{
-        			title: "🏆 SKI TEACHING 1 🇰🇷",
-        			desc: "(2017.03)"
-        		},
-                {
-                    title: "🏆 무역관리사",
-                    desc: "(2014.09)"
-                },
-                {
-                    title: "🏆 전산회계 1급",
-                    desc: "(2014.04)"
-                },
-            	{
-                    title: "🏆 MOS MASTER",
-                    desc: "(2013.03)"
-                },
-                {
-                    title: "🏆 SNOW BOARD LEVEL 1 🇰🇷",
-                    desc: "(2013.02)"
-                },
-                {
-                    title: "🏆 SKI LEVEL 1 🇰🇷",
-                    desc: "(2013.02)"
-                },
-        		{
+        {
+            title: "⛷️ SKI TEACHING 1 🇰🇷",
+            desc: "(2017.03)"
+        },
+        {
+            title: "🚢 무역관리사",
+            desc: "(2014.09)"
+        },
+        {
+            title: "💻 전산회계 1급",
+            desc: "(2014.04)"
+        },
+        {
+            title: "💻 MOS MASTER",
+            desc: "(2013.03)"
+        },
+        {
+            title: "🏂 SNOW BOARD LEVEL 1 🇰🇷",
+            desc: "(2013.02)"
+        },
+        {
+            title: "⛷️ SKI LEVEL 1 🇰🇷",
+            desc: "(2013.02)"
+        },
+        {
 
-        			title: "🏆 운전면허 1종보통",
-                   desc: "(2010.07)"
-        		}
+            title: "🚗 운전면허 1종보통",
+           desc: "(2010.07)"
+        }
 	],
 	view: true
 }
