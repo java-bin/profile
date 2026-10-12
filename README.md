@@ -2,10 +2,12 @@
 ## Nice and Clean Responsive Dark Theme Portfolio Website with React!
 
 ## Local Test
-* npm start 
+export NODE_OPTIONS=--openssl-legacy-provider
+npm start
 
 ## Git
 * Commit & Push
 
 ## Deploy
-* npm run deploy 
+NODE_OPTIONS=--openssl-legacy-provider npm run deploy 
+npm run deploy
