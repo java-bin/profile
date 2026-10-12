@@ -10,6 +10,7 @@ export const greeting = {
     ],
 	role: "Thank you for your interest",
 	resumeLink: "https://jasper-calculator-706.notion.site/Software-Engineer-c2658b7ccc784a1e94028b82706ad9ae?pvs=4",
+	worldLink: "https://java-bin.github.io/world/",
 	// IMPORTANT
 	// If you don't want to show this, change view to false. DO NOT DELETE!
 	view: true
